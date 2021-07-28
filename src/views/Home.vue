@@ -1,23 +1,20 @@
 <template>
   <div class="home">
     <h1>Welcome to my personal website</h1>
+    <Intro />
     <RecentProject />
-    <WorkExperience />
-    <Contact />
   </div>
 </template>
 
 <script lang="ts">
 import RecentProject from "@/components/RecentProject.vue";
-import WorkExperience from "@/components/WorkExperience.vue";
-import Contact from "@/components/Contact.vue";
+import Intro from "@/components/Introduction.vue";
 
 export default {
   name: "Home",
   components: {
+    Intro,
     RecentProject,
-    WorkExperience,
-    Contact,
   },
 };
 </script>
@@ -29,7 +26,7 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #b6e4eb;
+  background-color: #f8f7df;
   overflow-x: auto;
   overflow-y: auto;
 }
