@@ -4,50 +4,50 @@
     <ul>
       <ul>
         <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel"
+          href="https://github.com/RaymondJYGu/MusicOrchard"
           target="_blank"
           rel="noopener"
-          >Game: Music Orchard</a
+          >Game: Music Orchard(Swift)</a
         >
       </ul>
       <ul>
         <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa"
+          href="https://github.com/RaymondJYGu/PredatorPreySystem"
           target="_blank"
           rel="noopener"
-          >Parallel Computing: Predator-Prey System</a
+          >Parallel Computing: Predator-Prey System(C)</a
         >
       </ul>
       <ul>
         <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa"
+          href="https://github.com/RaymondJYGu/Billboard"
           target="_blank"
           rel="noopener"
-          >Survial Analysis: Billboard Music</a
+          >Survial Analysis: Billboard Music(R)</a
         >
       </ul>
       <ul>
         <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa"
+          href="https://github.com/RaymondJYGu/BeijingAirQuality.git"
           target="_blank"
           rel="noopener"
-          >Game: Snake</a
+          >Machine Learning: Beijing air quality(R)</a
         >
       </ul>
       <ul>
         <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa"
+          href="https://github.com/RaymondJYGu/Snake"
           target="_blank"
           rel="noopener"
-          >Game: Snake</a
+          >Game: Snake(Java)</a
         >
       </ul>
       <ul>
         <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa"
+          href="https://github.com/RaymondJYGu/Peosonal-Website.git"
           target="_blank"
           rel="noopener"
-          >Game: Snake</a
+          >Personal Website(Vuejs)</a
         >
       </ul>
     </ul>
