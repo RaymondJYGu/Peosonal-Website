@@ -1,4 +1,4 @@
-# JingyaoGu
+# JingyaoGu's Personal Website
 
 ## Project setup
 ```
