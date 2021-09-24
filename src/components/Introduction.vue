@@ -1,5 +1,8 @@
 <template>
   <div class="intro">
+    <div id="nav">
+      <router-link to="/about">About me</router-link>
+    </div>
     <a class="title"> Hi. I'm Jingyao. </a>
     <a class="title"> A software developer. </a>
     <a class="subtitle">
@@ -18,12 +21,6 @@
       <div class="link" @click="emaillink">
         <img src="@/assets/Gmail.png" />
       </div>
-
-      <div class="link">
-        <router-link to="/Wechat"
-          ><img src="@/assets/Wechat.png"
-        /></router-link>
-      </div>
     </div>
   </div>
 </template>
@@ -41,25 +38,27 @@ export default {
     emaillink: function () {
       window.open("mailto:gjyraymond@gmail.com");
     },
-    wechatlink: function () {
-      window.open("https://github.com/RaymondJYGu");
-    },
   },
 };
 </script>
 
 <style scoped lang="scss">
+#nav {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  font-size: 50px;
+}
 .intro {
   position: -webkit-sticky;
   position: sticky;
   top: 0%;
   left: 0%;
   height: 100%;
-  width: 45%;
-  padding-top: 50px;
-  padding-left: 100px;
-  padding-right: 50px;
-  padding-bottom: 100px;
+  width: 50%;
+  padding: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,7 +70,7 @@ export default {
   position: relative;
   width: 100%;
   color: #080808;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 100;
   letter-spacing: -5px;
   margin-bottom: 20px;
@@ -91,14 +90,15 @@ export default {
   position: relative;
   width: 100%;
   margin-top: 30px;
+  margin-left: 70px;
   display: flex;
   align-items: center;
 }
 .link {
   position: relative;
-  width: 80px;
-  height: 80px;
-  margin-right: 40px;
+  width: 100px;
+  height: 100px;
+  margin-right: 50px;
   display: flex;
   justify-content: center;
   align-items: center;

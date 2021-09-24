@@ -16,5 +16,8 @@
       studies, and philosophy classes during my first two years of college.
     </h3>
     <img src="../assets/rsz_self.png" />
+    <div id="nav">
+      <router-link to="/Home">Go back home</router-link>
+    </div>
   </div>
 </template>

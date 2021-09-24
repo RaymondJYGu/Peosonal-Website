@@ -1,19 +1,18 @@
 <template>
   <div class="home">
-    <h1>Welcome to my personal website</h1>
-    <Intro />
+    <Introduction />
     <RecentProject />
   </div>
 </template>
 
 <script lang="ts">
 import RecentProject from "@/components/RecentProject.vue";
-import Intro from "@/components/Introduction.vue";
+import Introduction from "@/components/Introduction.vue";
 
 export default {
   name: "Home",
   components: {
-    Intro,
+    Introduction,
     RecentProject,
   },
 };
@@ -21,13 +20,21 @@ export default {
 
 <style scoped lang="scss">
 .home {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background-color: #f8f7df;
-  overflow-x: auto;
   overflow-y: auto;
+}
+@media (max-width: 800px) {
+  .home {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+  }
 }
 </style>
