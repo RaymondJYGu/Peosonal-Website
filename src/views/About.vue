@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <h1>Hi, I am Raymond Jingyao Gu and I am a computer science</h1>
-    <h1>and applied math double major at Macalester college</h1>
+    <h1>and applied math and statistics double major at Macalester college</h1>
     <h3>
       Grew Up in Wuxi, a city near Shanghai, I went to the best local junior and
       senior high school: Wuxi Big Bridge Academy.
