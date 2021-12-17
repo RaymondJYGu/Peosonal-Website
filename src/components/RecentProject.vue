@@ -74,17 +74,18 @@
       <div class="box">
         <ul>
           <a
-            href="https://github.com/RaymondJYGu/SpeechRecognition"
+            href="https://github.com/RaymondJYGu/Speech-Recognition"
             target="_blank"
             rel="noopener"
-            >Speech to Text Recognition software:Deep Learning(Python)</a
+            >Speech Recognition Using CNN(Python)</a
           >
         </ul>
         <ul>
           <body>
-            We are trying to built a software that converts audio files into
-            text files using Python and Python libraries, while also developing
-            a deep learning architecture for automatic speech recognition.
+            We used data from TensorFlow's speech Commands Datasets, which
+            includes 65,000 one-second long utterances of 30 short words,
+            thousands of different people and we modified a CNN to achieve an
+            accuracy of more than 80%.
           </body>
         </ul>
       </div>
@@ -106,17 +107,35 @@
       <div class="box">
         <ul>
           <a
-            href="https://github.com/RaymondJYGu/CovidViz"
+            href="https://github.com/RaymondJYGu/Covid-Prediction"
             target="_blank"
             rel="noopener"
-            >Covid Visualization(D3.js)</a
+            >Short term COVID-19 prediction model using MCMC simulation(R)</a
           >
         </ul>
         <ul>
           <body>
-            Trying to built a dynamic and interactive visualization on global
-            Covid cases using d3.js. Also predicting and visualizing future
-            global covid map given new policies and vaccines.
+            We use a Bayesian approach to investigate how factors such as state
+            and time can help us predict future COVID-19 outbreaks. The
+            investigation potentially can help people decide to what places and
+            at what time are they safe to travel if they have to.
+          </body>
+        </ul>
+      </div>
+      <div class="box">
+        <ul>
+          <a
+            href="https://observablehq.com/@ba7b3eef313bfb32/saint-paul-crime"
+            target="_blank"
+            rel="noopener"
+            >Saint Paul Crime Visualization(D3.js)</a
+          >
+        </ul>
+        <ul>
+          <body>
+            We used data from Saint Paul public dataset, which includes over
+            300,000 indivial incidents that happened between 2017 and 2021. We
+            then created multiple interactive visualizations to tell a story.
           </body>
         </ul>
       </div>

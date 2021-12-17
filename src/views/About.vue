@@ -15,6 +15,10 @@
       besides my major. I took several Economics, international studies, asian
       studies, and philosophy classes during my first two years of college.
     </h3>
+    <h3>
+      As of right now, I am looking for a job and preparing for graduate school
+      at the same time.
+    </h3>
     <img src="../assets/rsz_self.png" />
   </div>
 </template>
